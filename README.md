@@ -222,4 +222,4 @@ SELECT * FROM tasks;
 ---
 ## Video Link
 
-[Watch the demo]()
+[Watch the demo](https://youtu.be/6tCTppEGuNE)

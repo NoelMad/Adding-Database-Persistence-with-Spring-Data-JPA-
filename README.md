@@ -1,9 +1,3 @@
-Your README is actually solid — it just needs **clean formatting, grammar fixes, and consistency**. I corrected everything while keeping your structure the same.
-
-Here’s the **polished version** 👇
-
----
-
 # Creating-My-First-Spring-Boot-API-with-Validation & Adding Database Persistence with Spring Data JPA
 
 ## Project Description

@@ -117,17 +117,4 @@ public class TaskController {
         Page<Task> tasks = taskService.getAllTasks(pageable);
         return ResponseEntity.ok(tasks);
     }   
-
-    @GetMapping("/search-paginated")
-    public ResponseEntity<Page<Task>> searchTasksPaginated(
-            @RequestParam String keyword,
-            @RequestParam(defaultValue = "0") int page,
-            @RequestParam(defaultValue = "5") int size,
-            @RequestParam(defaultValue = "title") String sortBy) {
-
-        Pageable pageable = PageRequest.of(page, size, Sort.by(sortBy));
-        Page<Task> tasks = taskService.searchTasks(keyword, pageable);
-
-        return ResponseEntity.ok(tasks);
-    }
 }

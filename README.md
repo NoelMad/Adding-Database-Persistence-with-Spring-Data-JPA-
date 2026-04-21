@@ -12,6 +12,42 @@ The application follows a layered architecture:
 * Service: Contains business logic
 * Model: Represents task data
 
+## Tools Used
+
+### Backend Development
+- Java 17 – Core programming language
+- Spring Boot 3.x – Backend framework for building REST APIs
+- Spring Web – Handles HTTP requests and REST endpoints
+- Spring Data JPA – Database operations and ORM mapping
+- Spring Validation – Input validation (@NotBlank, @Size, etc.)
+- Spring Security – API security configuration
+- Spring Boot Actuator – Application monitoring and health checks
+
+### Database
+- H2 Database (In-Memory) – Development and testing database
+- JPA / Hibernate – Object-relational mapping between Java and database
+- SQL (H2 Console) – Querying and viewing stored data
+
+### Development Tools
+- Maven – Dependency management and build tool
+- Lombok – Reduces boilerplate code (getters, setters, constructors)
+- IntelliJ IDEA / VS Code – Development environments
+- Git & GitHub – Version control and project hosting
+
+### API Testing & Documentation
+- Postman – Testing REST API endpoints (GET, POST, PUT, DELETE)
+- Swagger / OpenAPI – API documentation and endpoint testing
+
+### Key Concepts
+- REST API architecture
+- MVC (Model–View–Controller) pattern
+- Dependency Injection (Spring IoC)
+- Layered architecture (Controller → Service → Repository)
+- CRUD operations
+- Input validation and exception handling
+- Pagination and sorting
+- Database persistence using JPA
+
 ---
 
 ## How to Run the Application
